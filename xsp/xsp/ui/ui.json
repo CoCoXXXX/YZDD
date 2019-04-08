@@ -1,0 +1,67 @@
+{
+   "style" : "default",
+   "config" : "save_AutoAnswer.dat",
+   "width" : 640,
+   "height" : 1000,
+   "cancelscroll" : true,
+   "countdown" : 0,
+   "cancelname" : "取消",
+   "okname" : "确定",
+   "views" : [
+      {
+          "text" : "基本设置",
+         "type" : "Page",
+         "views" : [
+            {
+               "align" : "center",
+               "color" : "0,0,0",
+               "size" : "32",
+               "text" : "欢迎使用【IMBA】一战到底 \n祝您撩妹愉快!",
+               "bg" : "225,225,225",
+               "type" : "Label"
+            },
+            {
+               "align" : "left",
+               "color" : "255,255,255",
+               "size" : "30",
+               "text" : "        ",
+               "bg" : "255,255,255",
+               "type" : "Label"
+            },
+			 {
+               "align" : "left",
+               "color" : "0,0,0",
+               "size" : "30",
+               "text" : "请选择游戏功能",
+               "bg" : "255,255,255",
+               "type" : "Label"
+            },
+            {
+               "id" : "GameType",
+               "list" : "手动答题,自动答题",
+               "select" : "0",
+               "size" : "30",
+               "type" : "RadioGroup",
+			   "orientation" : "horizontal",
+			   "color" : "0,0,225"
+            },
+            {
+               "align" : "center",
+               "color" : "188,0,9",
+               "size" : "30",
+               "text" : "小提示：",
+               "bg" : "255,255,255",
+               "type" : "Label"
+            },
+            {
+               "align" : "left",
+               "color" : "188,0,9",
+               "size" : "30",
+               "text" : "2 、本脚本需要连接网络，请保持网络连接，当答案显示较慢时，可能是是网络信号不好",
+               "bg" : "255,255,255",
+               "type" : "Label"
+            }
+         ]
+      }
+   ]
+}
